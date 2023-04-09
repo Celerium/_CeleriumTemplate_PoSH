@@ -1,8 +1,11 @@
 blank_issues_enabled: true
 contact_links:
-  - name: GitHub Community Support
-    url: https://github.com/orgs/community/discussions
-    about: Please ask and answer questions here.
-  - name: GitHub Security Bug Bounty
-    url: https://bounty.github.com/
-    about: Please report security vulnerabilities here.
+  - name: Project Documentation
+    url: https://celerium.github.io/xxxREPONAMExxx/
+    about: Read through the generated documentation
+  - name: Vendor Documentation
+    url: https://github.com/Celerium
+    about: Read through the vendors documentation
+  - name: Celerium.org
+    url: https://celerium.org
+    about: Website were I publish more information related to this project.
