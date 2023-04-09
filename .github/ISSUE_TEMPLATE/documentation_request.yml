@@ -10,13 +10,25 @@ body:
       value: |
         Thank you for taking the time to fill out this bug report!
   - type: checkboxes
-    id: ExistingDocumentation
+    id: ReadME
     attributes:
-      label: Existing documentation
-      description: Is the request already documented
+      label: README
+      description: Have you read our README
       options:
         - label: "[ReadMe](https://github.com/Celerium/xxxREPONAMExxx/blob/main/README.md)"
+  - type: checkboxes
+    id: WebDocumentation
+    attributes:
+      label: Web Documentation
+      description: Have you read the online documentation
+      options:
         - label: "[Documentation](https://Celerium.github.io/xxxREPONAMExxx/)"
+  - type: checkboxes
+    id: PowerShellHelp
+    attributes:
+      label: PowerShell Help
+      description: Have you read the help output?
+      options:
         - label: "Get-Help Get-xxxModulePrefixxxx<RESOURCES-NAME> -Full"
   - type: textarea
     id: DocumentationRequest
@@ -33,7 +45,7 @@ body:
         Link: <https://github.com/Celerium/xxxREPONAMExxx/issues/1>
         "
   - type: textarea
-    id: ExistingIssue
+    id: NewDocumentation
     attributes:
-      label: NewIssue?
+      label: New Documentation
       description: A clear and concise description of what you want to happen.
