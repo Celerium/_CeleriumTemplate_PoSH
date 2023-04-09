@@ -5,15 +5,11 @@ labels: ["type: documentation"]
 assignees:
   - Celerium
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thank you for taking the time to fill out this bug report!
   - type: checkboxes
     id: ReadME
     attributes:
       label: README
-      description: "[ReadMe](https://github.com/Celerium/xxxREPONAMExxx/blob/main/README.md)
+      description: "[ReadMe](https://github.com/Celerium/xxxREPONAMExxx/blob/main/README.md)"
       options:
         - label: "Have you read our README"
   - type: checkboxes
