@@ -1,7 +1,7 @@
 name: 🐛 Bug Report
 description: File a bug report to help us improve
 title: "[Bug]: "
-labels: ["bug"]
+labels: ["type: bug"]
 assignees:
   - Celerium
 body:
@@ -63,19 +63,19 @@ body:
     attributes:
       label: Help Commands
       description: Please share additional details about your environment.
-      value: "
-        $PSversionTable
+      value: "$PSversionTable
 
         Get-Package -Name xxxModuleNamexxx | Select-Object Name,Version,Source,ProviderName
 
         Get-ComputerInfo -Property @(
-          'OsName',
-          'OsOperatingSystemSKU',
-          'OSArchitecture',
-          'WindowsVersion',
-          'WindowsBuildLabEx',
-          'OsLanguage',
-          'OsMuiLanguages'
+        'OsName',
+        'OsVersion',
+        'OsOperatingSystemSKU',
+        'OSArchitecture',
+        'WindowsVersion',
+        'WindowsBuildLabEx',
+        'OsLanguage',
+        'OsMuiLanguages'
         )"
       render: PowerShell
   - type: checkboxes
