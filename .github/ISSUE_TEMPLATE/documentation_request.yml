@@ -13,23 +13,23 @@ body:
     id: ReadME
     attributes:
       label: README
-      description: Have you read our README
+      description: "[ReadMe](https://github.com/Celerium/xxxREPONAMExxx/blob/main/README.md)
       options:
-        - label: "[ReadMe](https://github.com/Celerium/xxxREPONAMExxx/blob/main/README.md)"
+        - label: "Have you read our README"
   - type: checkboxes
     id: WebDocumentation
     attributes:
       label: Web Documentation
-      description: Have you read the online documentation
+      description: "[Documentation](https://Celerium.github.io/xxxREPONAMExxx/)"
       options:
-        - label: "[Documentation](https://Celerium.github.io/xxxREPONAMExxx/)"
+        - label: "Have you read the online documentation"
   - type: checkboxes
     id: PowerShellHelp
     attributes:
       label: PowerShell Help
-      description: Have you read the help output?
+      description: "Get-Help Get-xxxModulePrefixxxx<RESOURCES-NAME> -Full"
       options:
-        - label: "Get-Help Get-xxxModulePrefixxxx<RESOURCES-NAME> -Full"
+        - label: "Have you read the help output?"
   - type: textarea
     id: DocumentationRequest
     attributes:
@@ -40,12 +40,5 @@ body:
     id: ExistingIssue
     attributes:
       label: Existing Issue?
-      description: Please describe or link.
-      value: "Issue: #12345
-        Link: <https://github.com/Celerium/xxxREPONAMExxx/issues/1>
-        "
-  - type: textarea
-    id: NewDocumentation
-    attributes:
-      label: New Documentation
-      description: A clear and concise description of what you want to happen.
+      description: Is this related to an existing issue? If so please describe or link.
+      value: "Issue: #12345"
