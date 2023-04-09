@@ -1,0 +1,43 @@
+name: 📝 Documentation Request
+description: Suggest extra documentation for this project
+title: "[Documentation Request]: "
+labels: ["type: documentation"]
+assignees:
+  - Celerium
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to fill out this bug report!
+
+  - type: checkboxes
+    id: ExistingDocumentation
+    attributes:
+      label: Existing documentation
+      description: Is the request already documented
+      options:
+        - label: "[ReadMe](https://github.com/Celerium/xxxREPONAMExxx/blob/main/README.md)"
+        - label: "[Documentation](https://Celerium.github.io/xxxREPONAMExxx/)"
+        - label: "Get-Help Get-xxxModulePrefixxxx<RESOURCES-NAME> -Full"
+
+  - type: textarea
+    id: DocumentationRequest
+    attributes:
+      label: Documentation Request
+      description: What would you like to see more documentation around?
+      render: Text
+
+  - type: textarea
+    id: ExistingIssue
+    attributes:
+      label: Existing Issue?
+      description: Please describe or link.
+      value: "Issue: #12345
+        Link: <https://github.com/Celerium/xxxREPONAMExxx/issues/1>
+        "
+
+  - type: textarea
+    id: ExistingIssue
+    attributes:
+      label: NewIssue?
+      description: A clear and concise description of what you want to happen.
