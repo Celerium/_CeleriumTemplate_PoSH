@@ -8,15 +8,13 @@ body:
   - type: checkboxes
     id: ReadME
     attributes:
-      label: README
-      description: "[ReadMe](https://github.com/Celerium/xxxREPONAMExxx/blob/main/README.md)"
+      label: "[Project README](https://github.com/Celerium/xxxREPONAMExxx/blob/main/README.md)"
       options:
         - label: "Have you read our README"
   - type: checkboxes
     id: WebDocumentation
     attributes:
-      label: Web Documentation
-      description: "[Documentation](https://Celerium.github.io/xxxREPONAMExxx/)"
+      label: "[Online Documentation](https://Celerium.github.io/xxxREPONAMExxx/)"
       options:
         - label: "Have you read the online documentation"
   - type: checkboxes
